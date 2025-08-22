@@ -1,5 +1,6 @@
 package com.kov.testing;
 
+import com.kov.testing.testingClases.Calculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

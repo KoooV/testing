@@ -1,4 +1,4 @@
-package com.kov.testing;
+package com.kov.testing.testingClases;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,9 +10,9 @@ public class Filter {
         if(numbers == null || numbers.isEmpty()){
             return Collections.emptyList();
         }
-        numbers = numbers.stream()
+        return numbers.stream()
                 .filter(x -> x % 2 == 0)
                 .collect(Collectors.toCollection(ArrayList::new));
-        return numbers;
+
     }
 }

@@ -1,4 +1,4 @@
-package com.kov.testing;
+package com.kov.testing.testingClases;
 
 public class Calculator {
 

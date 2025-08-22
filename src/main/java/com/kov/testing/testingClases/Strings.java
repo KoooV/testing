@@ -1,6 +1,4 @@
-package com.kov.testing;
-
-import java.util.stream.Stream;
+package com.kov.testing.testingClases;
 
 public class Strings {
     public String reverse(String str) {
